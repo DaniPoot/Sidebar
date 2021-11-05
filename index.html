@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Simple sidebar">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="Daniel Poot">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <main>
+    <div class="sidebar">
+      <div class="sidebar__header">
+        <div class="sidebar__menu">
+          <div class="sidebar_hamburger">
+            <span class="sidebar__burger"></span>
+          </div>
+          <img src="./images/logo.svg" class="ml-sm" alt="no te rindas logo">
+          <p class="h1 ml-sm">No te rindas</p>
+        </div>
+      </div>
+      <div class="sidebar__section">
+        <ul class="sidebar__list">
+          <li class="sidebar__list-item">
+            <img src="./images/archive.svg" class="mr-sm" alt="Recibidos">
+            <a class="sidebar__link" href="#">Recibidos</a>
+          </li>
+          <li class="sidebar__list-item">
+            <img src="./images/star.svg" class="mr-sm" alt="Destacados">
+            <a class="sidebar__link" href="#">Destacados</a>
+          </li>
+          <li class="sidebar__list-item">
+            <img src="./images/clock.svg" class="mr-sm" alt="Pospuestos">
+            <a class="sidebar__link" href="#">Pospuestos</a>
+          </li>
+          <li class="sidebar__list-item">
+            <img src="./images/send.svg" class="mr-sm" alt="Enviados">
+            <a class="sidebar__link" href="#">Enviados</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="sidebar__section">
+        <p class="h6 pl-sm category-title">Categorias</p>
+        <ul class="sidebar__list">
+          <li class="sidebar__list-item">
+            <img src="./images/mail.svg" class="mr-sm" alt="Todos">
+            <a class="sidebar__link" href="#">Todos</a>
+          </li>
+          <li class="sidebar__list-item">
+            <img src="./images/trash-2.svg" class="mr-sm" alt="Papelera">
+            <a class="sidebar__link" href="#">Papelera</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </main>
+  <script src="./js/index.js"></script>
+</body>
+</html>
